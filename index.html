@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Azelea Hotel — Italian Inspired</title>
+  <meta name="description" content="Azelea Hotel — Italian-inspired boutique hotel with global branches." />
+  <link rel="stylesheet" href="azalea.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <div class="brand-logo">A</div>
+        <div class="brand-text">
+          <h1>Azelea Hotel</h1>
+          <div class="est">Est. 1980</div>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">HOME</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#amenities">FACILITIES</a>
+        <a href="#alumni">ALUMNAI</a>
+        <a href="#contact">CONTACT US</a>
+      </nav>
+
+      <button id="mobileToggle" class="mobile-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-slides">
+      <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1501117716987-c8e9d6b3b3b6?auto=format&fit=crop&w=2000&q=80')"></div>
+      <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=2000&q=80')"></div>
+      <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=2000&q=80')"></div>
+    </div>
+
+    <div class="hero-overlay">
+      <h2 class="hero-title">Azelea Hotel</h2>
+      <div class="hero-sub">Est. 1980</div>
+      <p class="hero-desc">
+        An Italian-inspired boutique hotel, blending Mediterranean elegance with modern comforts.
+        Branches across India, UAE, Monaco, France, Germany, USA, Australia, Spain, China, Japan, Italy and beyond.
+      </p>
+      <div class="hero-cta">
+        <button id="openBooking" class="btn primary">Book Now</button>
+      </div>
+    </div>
+
+    <div class="hero-controls">
+      <button class="hero-dot" data-index="0"></button>
+      <button class="hero-dot" data-index="1"></button>
+      <button class="hero-dot" data-index="2"></button>
+    </div>
+  </section>
+
+  <!-- ROOMS -->
+  <section id="rooms" class="section container">
+    <h3 class="section-title">Rooms & Suites</h3>
+    <p class="section-sub">Deluxe, Executive, Family rooms and VIP Suite — curated for comfort and style.</p>
+
+    <div class="room-slider">
+      <div class="room-card">
+        <img src="bedroom2.jpg" alt="Deluxe room">
+        <h4>Deluxe Room</h4>
+        <p>Comfortable and stylish, ideal for single travellers or couples.</p>
+      </div>
+
+      <div class="room-card">
+        <img src="bedroom3.jpg" alt="Executive room">
+        <h4>Executive Room</h4>
+        <p>Work-ready spaces with premium amenities and plush bedding.</p>
+      </div>
+
+      <div class="room-card">
+        <img src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=1200&q=80" alt="Family room">
+        <h4>Family Room</h4>
+        <p>Spacious, family-friendly rooms with extra beds and comfort.</p>
+      </div>
+
+      <div class="room-card">
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80" alt="VIP suite">
+        <h4>VIP Suite</h4>
+        <p>Top-tier luxury, private lounge, and bespoke services.</p>
+      </div>
+    </div>
+
+    <div class="room-controls">
+      <button id="prevRoom" class="btn secondary">‹</button>
+      <button id="nextRoom" class="btn secondary">›</button>
+    </div>
+  </section>
+
+  <!-- AMENITIES -->
+  <section id="amenities" class="section alt">
+    <div class="container">
+      <h3 class="section-title">Facilities</h3>
+      <div class="amenities-grid">
+        <div class="amenity">Free Wi-Fi</div>
+        <div class="amenity">Complimentary Breakfast</div>
+        <div class="amenity">Gym & Spa</div>
+        <div class="amenity">Airport Shuttle</div>
+        <div class="amenity">Italian Restaurant</div>
+        <div class="amenity">Concierge</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY (YOUR LINKS ADDED) -->
+  <section id="gallery" class="section container">
+    <h3 class="section-title">Gallery</h3>
+    <div class="gallery-grid">
+      
+<img src="bedroom1.jpg">
+      <img src="bathroom1.jpg">
+      <img src="swimmingpool.jpg">
+      <img src="hallway1.jpg">
+      <img src="lobby1.jpg">
+      <img src="parking1.jpg">
+      <img src="abc.jpg">
+      <img src="night1.jpg"
+    </div>
+  </section>
+
+  <!-- ALUMNAI SECTION (STYLE A) -->
+  <section id="alumnai" class="section container">
+    <h3 class="section-title">Alumnai</h3>
+    <p class="section-sub">Our prestigious guests and global members.</p>
+
+    <div class="gallery-grid">
+      <div class="amenity">John Carter – Business Tycoon</div>
+      <div class="amenity">Elena Rossi – Italian Designer</div>
+      <div class="amenity">Kenji Yamato – CEO, Japan Air</div>
+      <div class="amenity">Sophia Brooks – Hollywood Artist</div>
+      <div class="amenity">Amar Singh – Industrialist</div>
+      <div class="amenity">Lara Bianchi – Mediterranean Chef</div>
+    </div>
+  </section>
+
+  <!-- BOOKING MODAL -->
+  <div id="bookingModal" class="modal" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" id="closeBooking">✕</button>
+      <h4>Book a Room</h4>
+
+      <form id="bookingForm" class="booking-form">
+        <label>Full Name <input type="text" id="fullName" required></label>
+        <label>Email ID <input type="email" id="email" required></label>
+
+        <div class="row">
+          <label>Check-in <input type="date" id="checkIn" required></label>
+          <label>Check-out <input type="date" id="checkOut" required></label>
+        </div>
+
+        <div class="row">
+          <label>Total People <input type="number" id="totalPeople" min="1" value="1" required></label>
+          <label>How many rooms <input type="number" id="totalRooms" min="1" value="1" required></label>
+        </div>
+
+        <label>Valid ID Proof Number <input type="text" id="idProof" required></label>
+
+        <label>Room Type
+          <select id="roomType" required>
+            <option value="">Select</option>
+            <option value="deluxe">Deluxe</option>
+            <option value="executive">Executive</option>
+            <option value="family">Family</option>
+            <option value="vip">VIP Suite</option>
+          </select>
+        </label>
+
+        <label id="vipBlock" class="hidden">VIP Special Items <textarea id="vipRequests"></textarea></label>
+
+        <div class="modal-actions">
+          <button type="submit" class="btn primary">Confirm</button>
+          <button type="button" class="btn secondary" id="cancelBooking">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>Azelea Hotel</h4>
+        <p>123 Flower Lane, Portofino<br/>Phone: +91 98765 43210<br/>Email: hello@azelea.example</p>
+      </div>
+
+      <div>
+        <h5>Branches</h5>
+        <p>India • UAE • Monaco • France • Germany • USA • Australia • Spain • China • Japan • Italy • more</p>
+      </div>
+
+      <div>
+        <h5>Subscribe</h5>
+        <form id="subscribeForm">
+          <input id="subscribeEmail" type="email" placeholder="Your email">
+          <button class="btn primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="copyright">© <span id="year"></span> Azelea Hotel. All rights reserved.</div>
+  </footer>
+
+  <script src="azalea.jss.js"></script>
+</body>
+</html>
+     
+     
+
+  
+ 
